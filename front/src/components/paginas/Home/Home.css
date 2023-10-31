@@ -1,0 +1,53 @@
+.box-input-buscar{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 4rem;
+    gap: 10px;
+
+}
+
+.input-buscar{
+    width: 250px;
+
+}
+
+.div-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #271511;;
+}
+
+.botao-anterior {
+    
+    margin-left: 40px; 
+    margin-bottom: 10px; 
+    background-color: #271511;
+    color: #FFFFFF;
+    border: none;
+}
+
+.botao-proximo {
+    
+    margin-right: 40px; 
+    margin-bottom: 10px; 
+    background-color: #271511;
+    color: #FFFFFF;
+    border: none;
+}
+
+.buttons-de-paginacao{
+    display: flex;
+    justify-content: space-between;
+    
+}

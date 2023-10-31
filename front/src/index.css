@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+*{
+  background: transparent;
+}
+
+p {
+  font-family: 'Inter', 'Arial';
+  font-size: 1rem;
+}
+
+button{
+  border: solid #ffff 1px;
+  font-family: 'Inter';
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px;
+}
+
+/* CATEGORIA DE TITULO */
+h1, h2, h3{
+  font-family: 'Inter';
+}
+
+.titulo_decorativo{
+  color: #ffff;
+  font-family: 'Licorice';
+  text-align: center;
+  margin: 10px;
+  font-size: 5rem;
+}
+
+.titulo_rosa {
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 3rem;
+  color: #FEB4CB;
+}
+
+.titulo_azul {
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 3rem;
+  color: #A9DEE2;
+}
+
+.titulo_azul_escuro {
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 3rem;
+  color: #5C6996;
+}
+
+.titulo_branco {
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 3rem;
+  color: #ffff;
+}
+
+
+/* CATEGORIA DE SUBTITULOS */
+.subtitulo_rosa{
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 16px;
+  color: #FEB4CB;
+}
+
+.subtitulo_azul{
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 16px;
+  color: #A9DEE2;
+}
+
+.subtitulo_branco{
+  font-family: 'Inter', 'Arial';
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.alerta{
+  font-family: 'Inter';
+  margin-top: 10px;
+}
+
+/* CATEGORIA DE INPUTS */
+input{
+  display: block;
+  background: transparent;
+  width: 50%;
+  font-family: 'Inter';
+  align-items: center;
+  border: solid 1px #FEB4CB;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button{
+  background-color: #bebebe;
+}
+
+input:focus{
+    outline: none;
+}
+
+input{
+  margin: 5px;
+}
+
+label{
+  font-family: Inter;
+  margin: 5px;
+}
+
+.input_linha{
+ width: 20rem;
+ align-items: center;
+}
+
+.botaoSummit{
+  border: solid #ffff 1px;
+  font-family: 'Inter';
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px;
+  background-color: #FEB4CB;
+  color: #d16565;
+}
+
+.botaoCiano{
+  background-color: #A9DEE2;
+  color: #528c90;
+}
+
+.botaoRosa{
+  background-color: #FEB4CB;
+  color: #a8556f;
+}
+
+.botaoAzul{
+  background-color: #D1D5FA;
+  color: #5C6996;
+}
+
+.botaoCinza{
+  background-color: #bebebe;
+  color: #1c1c1e;
+}
+
+select{
+  margin: 6px;
+  display: block;
+  border: 1px solid #FEB4CB;
+  border-radius: 6px;
+  padding: 6px;
+  width: 60%;
+}
